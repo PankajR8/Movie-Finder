@@ -5,25 +5,100 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Day #11 - Movie Guid App | AsmrProg</title>
+    <title>Ecomm Website</title>
+    <link rel="stylesheet" href="ecomstyle.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
 </head>
 
 <body>
+    <header>
+        <div class="nav container">
+            <a href="#" class="logo">Ecommerce</a>
+            <i class='bx bx-shopping-bag' id="cart-icon"></i>
+            <!--cart-->
+            <div class="cart">
+                <h2 class="cart-title">Your Cart</h2>
+                <!--Content-->
+                <div class="cart-content">
 
-    <div class="container">
-        <div class="search-container">
-            <input type="text" id="movie-name" placeholder="Enter movie name here..." value="Wednesday">
-            <button id="search-btn">Search</button>
+                </div>
+                <!-- Total-->
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">0</div>
+                </div>
+                <!--Buy button-->
+                <button type="button" class="btn-buy">Buy Now</button>
+                <!--cart close-->
+                <i class='bx bx-x' id="close-cart"></i>
+            </div>
         </div>
-        <div id="result"></div>
-    </div>
-
-
-
-    <script src="key.js"></script>
-    <script src="index.js"></script>
-
+    </header>
+    <section class="shop container">
+        <h2 class="section-title">Shop Products</h2>
+        <!--content-->
+        <div class="shop-content">
+            <!--Box 1-->
+            <div class="product-box">
+                <img src="img/air.png" alt="" class="product-img">
+                <h2 class="product-title">AIR</h2>
+                <span class="price">2599</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!--Box 2-->
+            <div class="product-box">
+                <img src="img/blazer.png" alt="" class="product-img">
+                <h2 class="product-title">BLAZER</h2>
+                <span class="price">2599</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!--Box 3-->
+            <div class="product-box">
+                <img src="img/air2.png" alt="" class="product-img">
+                <h2 class="product-title">AIR</h2>
+                <span class="price">2599</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!--Box 4-->
+            <div class="product-box">
+                <img src="img/jordan.png" alt="" class="product-img">
+                <h2 class="product-title">JORDEN</h2>
+                <span class="price">2599</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!--Box 5-->
+            <div class="product-box">
+                <img src="img/mensuite.jpg" alt="" class="product-img">
+                <h2 class="product-title">Men Suite</h2>
+                <span class="price">2599</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!--Box 6-->
+            <div class="product-box">
+                <img src="img/womensuite2.jpg" alt="" class="product-img">
+                <h2 class="product-title">Women Suite</h2>
+                <span class="price">2599</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!--Box 7-->
+            <div class="product-box">
+                <img src="img/womencasual.jfif" alt="" class="product-img">
+                <h2 class="product-title">Casuals</h2>
+                <span class="price">2599</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!--Box 8-->
+            <div class="product-box">
+                <img src="img/mencasual.jfif" alt="" class="product-img">
+                <h2 class="product-title">Casuals</h2>
+                <span class="price">2599</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+        </div>
+    </section>
+    <!--Link to js-->
+    <script src="ecomscript.js"></script>
 </body>
 
 </html>
